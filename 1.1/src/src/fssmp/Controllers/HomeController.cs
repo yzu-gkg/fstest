@@ -13,7 +13,7 @@ namespace fssmp.Controllers
     {
         private string clientId = "B0XUU5XHCTMWXYMEFCRNV0AEUZ424QVGPUWX2WY1FQQLDW1C";
         private string clientSecret = "GPLCH5GEC2OXM3AQYAKNMOVOPINHBBM5LMFBSPYVSW4BQW5N";
-        private string path = "http://wa-dn.44fs.preview.openshiftapps.com/Home/Welcome";
+        private string path = "http://wa-dn.44fs.preview.openshiftapps.com/Home/Foursquare/";
         static List<string> tokens = new List<string>();
 
         public IActionResult Index()
