@@ -1,0 +1,15 @@
+﻿@model System.Collections.Generic.List<string>
+
+@{
+    ViewBag.Title = "Welcome";
+    Layout = "_Layout";
+}
+
+<h2>Welcome</h2>
+
+<p>List of tokens</p>
+
+@foreach (var token in Model)
+{
+    <p>@token</p>
+}
